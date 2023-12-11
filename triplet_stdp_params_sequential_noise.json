@@ -1,0 +1,12 @@
+{
+    "method": "increase_to",
+    "trace_max": 1, 
+    "pre_tau": 30,
+    "post1_tau": 40,
+    "post2_tau": 40,
+    "nuEEpre": 0.008, 
+    "nuEEpost": 0.064, 
+    "wmaxEE": 0.25, 
+    "expEEpre": 0.02,
+    "expEEpost": 0.6
+}
