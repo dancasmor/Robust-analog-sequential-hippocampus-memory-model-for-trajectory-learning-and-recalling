@@ -1,8 +1,8 @@
-# Robust analog sequential hippocampus memory model for trajectories learning and recalling: a noise tolerance analysis overview
+# Robust analog sequential hippocampus memory model for trajectory learning and recalling: a noise tolerance analysis overview
 
 <h2 name="Description">Description</h2>
 <p align="justify">
-Code on which the paper entitled "Robust analog sequential hippocampus memory model for trajectories learning and recalling: a noise tolerance analysis overview" is based, sent to a journal and awaiting review.
+Code on which the paper entitled "Robust analog sequential hippocampus memory model for trajectory learning and recalling: a noise tolerance analysis overview" is based, sent to a journal and awaiting review.
 </p>
 <p align="justify">
 A fully functional analog spike-based implementation of a sequential memory model bio-inspired on the hippocampus implemented on the <a href="https://ieeexplore.ieee.org/document/8094868">DYNAPSE1</a> hardware platform using the technology of the Spiking Neuronal Network (SNN) is presented. The code is written in Python and makes use of the Samna library and their adaptation for DYNAPSE1 called <a href="https://code.ini.uzh.ch/ncs/libs/dynap-se1">dynap-se1</a>. This model has been applied to robotic navigation for learning and recalling trajectories. In addition, the tolerance and robustness of the system to sources of random input noise has been analysed. The necessary scripts to replicate the tests and plots carried out in the paper are included, together with data and plots of the tests.
@@ -29,9 +29,9 @@ Please go to section <a href="#CiteThisWork">cite this work</a> to learn how to 
 
 <h2 name="Article">Article</h2>
 <p align="justify">
-<strong>Title</strong>: Robust analog sequential hippocampus memory model for trajectories learning and recalling: a noise tolerance analysis overview
+<strong>Title</strong>: Robust analog sequential hippocampus memory model for trajectory learning and recalling: a noise tolerance analysis overview
 
-<p align="justify"><strong>Abstract</strong>: The rapid expansion of information systems in all areas of society demands more powerful, efficient and low energy consumption computing systems. Neuromorphic engineering has emerged as a solution that attempts to mimic the brain to incorporate its capabilities to solve complex problems in a computationally and energy efficient way in real-time. Nowadays, neuromorphic memory systems remain a challenge to be solved. Among all brain regions, the hippocampus stands out as a short-term memory capable of learning large amounts of information quickly and recalling it efficiently. In this work, we propose a spike-based bio-inspired hippocampus sequential memory model that takes advantage of the benefits of analog computing and Spiking Neural Networks: noise robustness, improved real-time operation and energy efficiency. This model is applied to robotic navigation for learning and recalling trajectories to a goal position within a known grid environment. The model has been implemented in DYNAPSE1 and through extensive experimentation, its correct functioning has been demonstrated, as well as its high robustness and noise tolerance in this type of application. This work presents the first hardware implementation on a special-purpose hardware platform for Spiking Neural Networks of a fully functional analog spike-based hippocampal bio-inspired robust memory model, paving the road for the development of future more complex neuromorphic systems.</p>
+<p align="justify"><strong>Abstract</strong>: The rapid expansion of information systems in all areas of society demands more powerful, efficient and low energy consumption computing systems. Neuromorphic engineering has emerged as a solution that attempts to mimic the brain to incorporate its capabilities to solve complex problems in a computationally and energy-efficient way in real time. Within neuromorphic computing, building systems to efficiently store the information is still a challenge. Among all the brain regions, the hippocampus stands out as a short-term memory capable of learning large amounts of information quickly and recalling it efficiently. In this work, we propose a spike-based bio-inspired hippocampus sequential memory model that makes use of the benefits of analog computing and Spiking Neural Networks: noise robustness, improved real-time operation and energy efficiency. This model is applied to robotic navigation in order to learn and recall trajectories that lead to a goal position within a known grid environment. The model was implemented in DYNAP-SE and its correct functioning was demonstrated through extensive experimentation, as well as its high robustness and noise tolerance in this type of application. This work presents an implementation of a bio-inspired spike-based analog hippocampus sequential memory model on a special-purpose Spiking Neural Networks hardware platform together with an extensive analysis of the model's behaviour in the presence of external noise sources, obtaining a robust and consistent neuromorphic sequential memory system.</p>
 
 <strong>Keywords</strong>: Hippocampus model, analog sequential memory, Noise analysis, Spiking Neural Networks, Neuromorphic engineering, DYNAPSE
 
@@ -92,13 +92,13 @@ Daniel Casanueva-Morato would like to thank Giacomo Indiveri and his group for h
 
 This research was partially supported by project TED2021-130825B-I00. 
 
-D. C.-M. was supported by a "Formación de Profesor Universitario" Scholarship and by "Ayuda complementarias de movilidad" from the Spanish Ministry of Education, Culture and Sport.
+D. C.-M. was supported by a "Formación de Profesor Universitario" Scholarship and by "Ayudas complementarias de movilidad" from the Spanish Ministry of Education, Culture and Sport.
 </p>
 
 
 <h2 name="License">License</h2>
 <p align="justify">
-This project is licensed under the GPL License - see the <a href="https://github.com/dancasmor/Robust-analog-sequential-hippocampus-memory-model-for-trajectories-learning-and-recalling/blob/main/LICENSE">LICENSE.md</a> file for details.
+This project is licensed under the GPL License - see the <a href="https://github.com/dancasmor/Robust-analog-sequential-hippocampus-memory-model-for-trajectory-learning-and-recalling/blob/main/LICENSE">LICENSE.md</a> file for details.
 </p>
 <p align="justify">
 Copyright © 2023 Daniel Casanueva-Morato<br>  
