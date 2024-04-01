@@ -5,7 +5,7 @@
 Code on which the paper entitled "Analog sequential hippocampus memory model for trajectory learning and recalling: a robustness analysis overview" is based, sent to a journal and awaiting review.
 </p>
 <p align="justify">
-A fully functional analog spike-based implementation of a sequential memory model bio-inspired on the hippocampus implemented on the <a href="https://ieeexplore.ieee.org/document/8094868">DYNAPSE1</a> hardware platform using the technology of the Spiking Neuronal Network (SNN) is presented. The code is written in Python and makes use of the Samna library and their adaptation for DYNAPSE1 called <a href="https://code.ini.uzh.ch/ncs/libs/dynap-se1">dynap-se1</a>. This model has been applied to robotic navigation for learning and recalling trajectories. In addition, the tolerance and robustness of the system to sources of random input noise has been analysed. The necessary scripts to replicate the tests and plots carried out in the paper are included, together with data and plots of the tests.
+A fully functional analog spike-based implementation of a sequential memory model bio-inspired by the hippocampus implemented on the <a href="https://ieeexplore.ieee.org/document/8094868">DYNAP-SE</a> hardware platform using the technology of the Spiking Neuronal Network (SNN) is presented. The code is written in Python and makes use of the Samna library and their adaptation for DYNAP-SE called <a href="https://code.ini.uzh.ch/ncs/libs/dynap-se1">dynap-se1</a>. This model has been applied to robotic navigation for learning and recalling trajectories. In addition, the tolerance and robustness of the system to sources of random input noise has been analysed. The necessary scripts to replicate the tests and plots carried out in the paper are included, together with data and plots of the tests.
 </p>
 <p align="justify">
 Please go to section <a href="#CiteThisWork">cite this work</a> to learn how to properly reference the works cited here.
@@ -43,7 +43,7 @@ Please go to section <a href="#CiteThisWork">cite this work</a> to learn how to 
 <h2 name="Instalation">Instalation</h2>
 <p align="justify">
 <ol>
-	<li>Have or have access to the DYNAPSE1 hardware platform
+	<li>Have or have access to the DYNAP-SE hardware platform
 	<li>Python version 3.8.10</li>
 	<li>Python libraries:</li>
 	<ul>
@@ -70,7 +70,7 @@ Please go to section <a href="#CiteThisWork">cite this work</a> to learn how to 
 
 <h2 name="Usage">Usage</h2>
 <p align="justify">
-To run the different experiments, it is necessary to install all the libraries indicated in the <a href="#Instalation">instalation</a> section, to have a local or online tool for running notebooks and to have access to a DYNAPSE1 board. Each cell of each notebook comments to a greater or lesser extent on what is happening in it. In general terms: connecting to the board, declaring the functions to be used during the definition of the network, defining the neural network itself, defining the learning mechanism, configuring the parameters of neurons and synapses per core of the board, elaborating and applying the tests to the model, taking and formatting the results network data and creating the figures with the data taken as a result of the test.
+To run the different experiments, it is necessary to install all the libraries indicated in the <a href="#Instalation">instalation</a> section, to have a local or online tool for running notebooks and to have access to a DYNAP-SE board. Each cell of each notebook comments to a greater or lesser extent on what is happening in it. In general terms: connecting to the board, declaring the functions to be used during the definition of the network, defining the neural network itself, defining the learning mechanism, configuring the parameters of neurons and synapses per core of the board, elaborating and applying the tests to the model, taking and formatting the results network data and creating the figures with the data taken as a result of the test.
 </p>
 
 <p align="justify">
@@ -88,11 +88,9 @@ Work in progress...
 <p align="justify">
 The author of the original idea is Daniel Casanueva-Morato while working on a research project of the <a href="http://www.rtc.us.es/">RTC Group</a>.
 
-Daniel Casanueva-Morato would like to thank Giacomo Indiveri and his group for hosting him during a three-months internship between 1st June 2023 and 31th August 2023, during which this idea was originated and most of the results presented in this work were obtained.
+This work is part of the project SANEVEC TED2021-130825B-I00, funded by the Ministerio de Ciencia e Innovaci\'on (MCIN), Agencia Estatal de  Investigaci\'on (AEI) of Spain, MCIN/AEI/10.13039/501100011033, and by the European Union NextGenerationEU/PRTR, and was partially supported by project PID2019-105556GB-C33 funded by MCIN/ AEI /10.13039/501100011033. D. C.-M. was supported by a "Formaci\'{o}n de Profesorado Universitario" Scholarship and by "Ayudas complementarias de movilidad" from the Spanish Ministry of Education, Culture and Sport.
 
-This research was partially supported by project TED2021-130825B-I00. 
-
-D. C.-M. was supported by a "Formación de Profesor Universitario" Scholarship and by "Ayudas complementarias de movilidad" from the Spanish Ministry of Education, Culture and Sport.
+D.~Casanueva-Morato would like to thank Giacomo Indiveri and his group for hosting him during a three-month internship between 1st June 2023 and 31th August 2023, during which the idea of this paper was originated and most of the results presented in this work were obtained.
 </p>
 
 
