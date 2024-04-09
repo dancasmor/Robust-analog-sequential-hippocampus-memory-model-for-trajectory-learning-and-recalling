@@ -88,9 +88,9 @@ Work in progress...
 <p align="justify">
 The author of the original idea is Daniel Casanueva-Morato while working on a research project of the <a href="http://www.rtc.us.es/">RTC Group</a>.
 
-This work is part of the project SANEVEC TED2021-130825B-I00, funded by the Ministerio de Ciencia e Innovaci\'on (MCIN), Agencia Estatal de  Investigaci\'on (AEI) of Spain, MCIN/AEI/10.13039/501100011033, and by the European Union NextGenerationEU/PRTR, and was partially supported by project PID2019-105556GB-C33 funded by MCIN/ AEI /10.13039/501100011033. D. C.-M. was supported by a "Formaci\'{o}n de Profesorado Universitario" Scholarship and by "Ayudas complementarias de movilidad" from the Spanish Ministry of Education, Culture and Sport.
+This work is part of the projects PID2019-105556GB-C33 (MINDROB),  PDC2023-145841-C33 (NASSAI) and TED2021-130825B-I00 (SANEVEC) funded by MCIN/ AEI /10.13039/501100011033, by “ERDF A way of making Europe” and by the European Union NextGenerationEU/PRTR. D. C.-M. was supported by a "Formación de Profesorado Universitario" Scholarship and by "Ayudas complementarias de movilidad" from the Spanish Ministry of Education, Culture and Sport.
 
-D.~Casanueva-Morato would like to thank Giacomo Indiveri and his group for hosting him during a three-month internship between 1st June 2023 and 31th August 2023, during which the idea of this paper was originated and most of the results presented in this work were obtained.
+D. Casanueva-Morato would like to thank Giacomo Indiveri and his group for hosting him during a three-month internship between 1st June 2023 and 31th August 2023, during which the idea of this paper was originated and most of the results presented in this work were obtained.
 </p>
 
 
